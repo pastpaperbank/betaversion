@@ -30,8 +30,8 @@ body{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 
-    cursor: pointer;
-    cursor: url('cursor.png'), auto; /* Optional: Use a custom image as the cursor */
+    cursor: none;
+
   
 }
 

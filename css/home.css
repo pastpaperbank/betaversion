@@ -298,7 +298,8 @@ body {
     display: none;
     position: absolute;
     left: 0;
-    top: calc(var(--hamburger-height));
+    /* top: calc(var(--hamburger-height)); */
+    top: 1;
     background-color: var(--dark-color-2);
 }
 

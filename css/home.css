@@ -135,6 +135,7 @@ body {
 .website_name_holder {
     margin: 0 auto;
     color: var(--dark-color-1);
+    
 }
 
 .website_name_holder h1 {
@@ -149,6 +150,7 @@ body {
 
     /* Apply the jelly animation on hover */
     transition: transform 0.3s ease-in-out;
+    margin-right: 64px;
 }
 
 .website_name_holder h1:hover {

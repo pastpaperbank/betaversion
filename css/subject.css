@@ -1,15 +1,5 @@
 :root {
 
-    --dark-color-1:#F0EEE9;
-    --dark-color-2:#F0EEE9;
-    --dark-color-3-hover:#B2AC9F;
-    --teacher-color-1:#F0EEE9;
-    --light-color-1: #505057;
-    --light-color-2:#282830;
-    --light-color-3:#7B7B7B;
-}
-
-.dark_theme{
     --dark-color-1:#505057;
     --dark-color-2:#7B7B7B;
     --dark-color-3-hover:#282830;
@@ -18,7 +8,19 @@
     --light-color-1:#F0EEE9;
     --light-color-2:#F0EEE9;
     --light-color-3:#F0EEE9;
+}
+
+.dark_theme{
+   
     
+
+    --dark-color-1:#F0EEE9;
+    --dark-color-2:#F0EEE9;
+    --dark-color-3-hover:#B2AC9F;
+    --teacher-color-1:#F0EEE9;
+    --light-color-1: #505057;
+    --light-color-2:#282830;
+    --light-color-3:#7B7B7B;
 }
 
 html{

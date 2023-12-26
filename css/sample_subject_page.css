@@ -32,7 +32,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Poppins';
-    color: var(--dark-color-1);
+    color: var(--light-color-1);
     
 
 }
@@ -125,48 +125,48 @@
 .head_svg_container svg {
     height: 35px;
     width: 35px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
     margin: 4px;
 }
 .eng_head_svg_container svg {
     height: 35px;
     width: 35px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
     margin: 4px;
 }
 .phy_head_svg_container svg {
     height: 35px;
     width: 35px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
     margin: 4px;
 }
 .chem_head_svg_container svg {
     height: 35px;
     width: 35px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
     margin: 4px;
 }
 .bio_head_svg_container svg {
     height: 38px;
     width: 38px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
     margin: 4px;
 }
 .cs_head_svg_container svg {
     height: 38px;
     width: 38px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1);/* Green color */
     margin: 4px;
 }
 .bn_acc_head_svg_container svg {
     height: 35px;
     width: 35px;
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
     margin: 4px;
 }
 
 .head_svg_container, .bn_acc_head_svg_container .st0 {
-    fill: var(--dark-color-1); /* Green color */
+    fill: var(--light-color-1); /* Green color */
 }
 
 

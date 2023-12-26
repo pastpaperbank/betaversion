@@ -46,16 +46,6 @@ body{
 
 :root {
 
-    --dark-color-1:#F0EEE9;
-    --dark-color-2:#F0EEE9;
-    --dark-color-3-hover:#B2AC9F;
-    --teacher-color-1:#F0EEE9;
-    --light-color-1: #505057;
-    --light-color-2:#282830;
-    --light-color-3:#7B7B7B;
-}
-
-.dark_theme{
     --dark-color-1:#505057;
     --dark-color-2:#7B7B7B;
     --dark-color-3-hover:#282830;
@@ -64,7 +54,19 @@ body{
     --light-color-1:#F0EEE9;
     --light-color-2:#F0EEE9;
     --light-color-3:#F0EEE9;
+}
+
+.dark_theme{
+   
     
+
+    --dark-color-1:#F0EEE9;
+    --dark-color-2:#F0EEE9;
+    --dark-color-3-hover:#B2AC9F;
+    --teacher-color-1:#F0EEE9;
+    --light-color-1: #505057;
+    --light-color-2:#282830;
+    --light-color-3:#7B7B7B;
 }
 
 :root {
@@ -303,10 +305,21 @@ body {
     background-color: var(--dark-color-2);
 }
 
-.second_sidebar_clicker:hover .dropdown_menu ul,
+/* .second_sidebar_clicker:hover .dropdown_menu ul,
 .second_sidebar_clicker.touched .dropdown_menu ul {
     display: block;
+} */
+
+
+
+.second_sidebar_clicker .dropdown_menu ul {
+    display: none;
 }
+
+.second_sidebar_clicker.clicked .dropdown_menu ul {
+    display: block;
+}
+
 
 /* CSS for touch devices */
 @media only screen and (max-width: 767px) {
@@ -484,8 +497,8 @@ body{
     --label-after: calc(470px * 0.13);
     
 }
-
-.mother label{
+/* ------------- for dark theme default ---------- */
+/* .mother label{
     width: var(--mother-width);
     height: var(--mother-height);
     position: relative;
@@ -524,7 +537,58 @@ input:checked + label:after{
     transform: translateX(-100%);
     
     background: #F0EEE9;
+} */
+
+
+
+
+/* --------------- for light theme default ----------------- */
+.mother label{
+    width: var(--mother-width);
+    height: var(--mother-height);
+    position: relative;
+    display: block;
+    background-color: var(--dark-color-1);
+    border-radius: 200px;
+    
+    cursor: pointer;
+    transition: 0.3s;
+    
 }
+.mother label:after{
+    content: "";
+    width: var(--mother-label-with);
+    height: var(--mother-label-with);
+    position: absolute;
+    top: 3;
+    left: 3;
+    background: #F0EEE9;
+    border-radius: 180px;
+    
+    transition: 0.3s;
+}
+
+.mother input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.mother input:checked + label{
+    background: #F0EEE9;
+}
+input:checked + label:after{
+    left: var(--label-after);
+    transform: translateX(-100%);
+    
+    background: #505057;
+}
+
+
+
+
+
+
 
 .mother {
     margin-left: auto;
@@ -571,6 +635,11 @@ input:checked + label:after{
     font-size: 18px;
     color: var(--dark-color-1);
 }
+
+
+
+
+
 
 
 .body-part .sub-btn button{

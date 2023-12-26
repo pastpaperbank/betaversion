@@ -1,3 +1,4 @@
+// script.js
 document.addEventListener('DOMContentLoaded', function () {
     var clickers = document.querySelectorAll('.second_sidebar_clicker, .hamburger_menu');
 

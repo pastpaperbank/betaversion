@@ -823,3 +823,27 @@ input:checked + label:after{
     background-color: var(--light-color-1);
     border-radius: 100%;
   }
+
+
+
+
+
+ /* ------------- navigation bar for phone user ------------- */
+
+
+ @media screen and (max-width: 800px){
+    .website_name_holder {
+        font-size: 37px;
+    }
+    .hamburger_menu {
+        scale: 1;
+    }
+    .mother label {
+        scale: 1.2;
+    }
+
+    .first_sidebar_clicker, .second_sidebar_clicker, .third_sidebar_clicker, .fill_sidebar_clicker{
+   
+        width: 140%;
+    }
+  }
